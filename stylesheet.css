@@ -1,0 +1,38 @@
+.body {
+    border: 10px solid black;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .main-background {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+.main-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .aboutme-div {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  }
