@@ -1,10 +1,17 @@
+* {
+  outline: 1px solid red; 
+}
 body {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
     background-color:#dee4eb;
-    padding:0%;  
+    padding:1px;  
+  }
+  h1 {font-size: 500%; 
+    margin: auto;
+    position: static;
   }
   .main-background {
     margin-top: 60px;
@@ -34,7 +41,7 @@ body {
     padding: 10px;
   }
   .main-image {
-  width: 2100px;
-  height: 800px;
-}
+  position: relative;
+    width: 2100px;
+  height: 600px; 
 }
