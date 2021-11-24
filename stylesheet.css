@@ -1,18 +1,28 @@
-/** {
-  outline: 1px solid red; 
-}*/
+
 body {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-    background-color:#dee4eb;
     padding:1px;  
   }
-  .flex-container {
-    display:flex;
+  .myblog-style {
+    margin-top: 20px;
+    text-shadow: 5px 5px 6px #b7cad3;
   }
-  h1 {font-size: 500%; 
+  .flex-container {
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15px;
+  }
+  h1 {
+    font-size: 500%; 
     margin: auto;
     position: static;
   }
@@ -39,12 +49,24 @@ body {
     display: block;
     margin: auto;
     margin-top: 50px;
+    margin-left: 480px;
     width: 60%;
     border: 3px solid #73AD21;
     padding: 10px;
+    border-radius: 20px;
   }
   .main-image {
-  position: relative;
-    width: 2100px;
+  width: 1000px;
   height: 600px; 
+  position: static;
+  margin-left: 30%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 6px #b7cad3;
+}
+.news{
+  text-decoration-color: red;
+}
+.main_nav{
+  position: absolute; 
+  top: 20px;
 }
