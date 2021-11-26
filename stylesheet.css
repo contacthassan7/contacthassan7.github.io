@@ -1,5 +1,10 @@
-
+ 
+/* * { 
+  outline: 1px solid red; 
+}
+*/
 body {
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
@@ -7,8 +12,11 @@ body {
     padding:1px;  
   }
   .myblog-style {
-    margin-top: 20px;
+    margin-top: none;
+    margin-bottom: 10px;
     text-shadow: 5px 5px 6px #b7cad3;
+    display: flex;
+    flex-direction: row;
   }
   .flex-container {
   bottom: 0;
@@ -16,15 +24,14 @@ body {
   left: 0;
   right: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 15px;
-  }
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 0px 15px;
+  }  
   h1 {
-    font-size: 500%; 
-    margin: auto;
-    position: static;
+    font-size: 300%; 
+    margin-top: 25px;
+    object-position: center;
   }
   .main-background {
     margin-top: 60px;
@@ -33,17 +40,18 @@ body {
     margin-left: 10px;
   }
 .main-button {
-    background-color: #4CAF50;
+    background-color: #fcfdfc;
     border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+    color: rgb(8, 3, 3);
+    padding: 10px 32px;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
+    margin: 30px 2px;
     cursor: pointer;
     border-radius: 12px;
+    height: fit-content;
+    box-shadow: 10px 3px 10px 5px #b7cad3;
   }
   .aboutme-div {
     display: block;
@@ -63,10 +71,9 @@ body {
   border-radius: 20px;
   box-shadow: 5px 5px 6px #b7cad3;
 }
-.news{
+.news {
   text-decoration-color: red;
 }
 .main_nav{
-  position: absolute; 
   top: 20px;
 }
