@@ -32,32 +32,101 @@
     </p>
   
   <h2>
-    Control flow and loops, arrays and objects
+    Control flow and loops
   </h2>
+  
+  <h3>
+    Control flow 
+  </h3>
+
+  <p>
+    In programming language, control flow refers to the sequence in which 
+    function calls, instructions, and statements are executed or evaluated. 
+    An if/else statement in the JavaScript is an example of a control flow statement.  
+    </p>
     <p>
-      By default, JS code is executed from top to bottom, line by line, 
-      however we can change this with Control flow. Control flow in JS 
-      allows program to make decisions about what code is executed and 
-      when.   
+      <b>For example:</b> Book issuance from library 
     </p>
     
     <p> 
-      We humans use it every day in making and altering decisions. 
-      A popular example is when we go out to buy groceries. We make 
-      the list first check we got the wallet if yes then get into 
-      the car if no then get the wallet first. If we don’t find our 
-      listed item in store else we get an alternate. 
+      <b>If</b> the book that I am searching for is not available in the library, then I 
+      should be notified that the book is not avaliable <b>else</b> I get the location of the 
+      book. 
     </p>
- 
+
+    <h3>
+      Loops 
+    </h3>
+    
     <p>
-      Objects are obvious. For example A car television, menu etc. 
+      Loops are used when you have to repeat the actions over and over again. Common life example is chopping veges. 
+      Imagine we have a big pile of veges to chop and we are doing the same action over and over again. In the world 
+      of loops we can put the repetitive stuff with in the loop. The loops need to have a starting point and a condition 
+      when to terminate and an increment value that helps identify how many iterations are needed between the start value 
+      and the end condition. The condition of the loop needs to be true on each iteration otherwise the loop will end. 
+    </p>
+
+    <p> 
+      The increment expression tells us how big the loop hop will be. I don’t know if loop hop is even a term but this is 
+      how I understand it. Kind of like a step or a hop from one iteration to the next. 
+    </p>
+
+    <img src="images/loop_example.jpg" alt="image loading" style="width:80%; height:100%;  margin-right:5px;">
+
+
+    <h2>
+      Arrays and Objects
+    </h2>
+    
+    <p>
+      <h3>Arrays:</h3> 
+      In JavaScript, Array is an object which stores a list of values. 
+      And sometimes we might be dealing with a list of objects for example list 
+      of products in a shopping cart or the list of colors that the user has 
+      selected. In situations like that, you use an array to store that list. 
+      Array’s syntax structure would look like this: const arrayName = [item1, item2, ...] 
+      and example would be: 
+    </p>
+    
+    <p>
+      <b>let shoppingList = [‘eggs, ‘bread’, ‘apples’]</b>
     </p>
     
     <p>
     Arrays is a collection of multiple values stored in a single variable. 
     In other words array is a list of objects. 
      For example, A list of to do, a shopping list, registers, menu etc 
+    </p>
+    
+    <p>
+      In array each element is indexed that determines the position of an 
+      element and index starts from zero. So, if we want to access an element 
+      in an array, we use index. Here’s how: 
+    </p>
+    
+    <p>
+      <b>console.log(shoppingList[2]) </b>
+    </p>
+    
+    <p>
+      Result in console: <b>apples</b> 
+    </p>
+    
+    <p>
+    <h3>Objects:</h3>
+    Object can be a combination of data structures and variables. They can have 
+    multiple attributes in the form on key value pairs. Each attribute has a unique 
+    name (key) with-in the object and can be accessed by object[key]. We can also 
+    assign the values to the attributes within the objects. From my experiment with 
+    objects I found that the only part we can manipulate are the values; not keys.
+    We cannot change structure of object from outside the object definition, like 
+    adding more attributes to the object. <b>object[key]=’new_value’</b> will assign ‘new_value’ 
+    to my objects’s key value. 
   </p>
+
+  <p>The most common example I read that helps in explaining the concept of objects is </p>
+  
+  <img src="images/object_example.jpg" alt="image loading" style="width:50%; height:50%;  margin-right:5px;">
 
     <h2>
     Functions and why they are useful
@@ -72,38 +141,9 @@
     of coffee but he wants his coffee to be slightly different like 
     extra sugar and milk. It goes like: 
   </p>
-
-    <ul>
-      function makeCoffee (sugar, milk) { 
-    </ul>
-
-    <ul>
-      let instructions = ‘Boil Water’  
-    </ul>
-    <ul>
-      instructions = ‘pour into cup’
-    </ul>
-    <ul>
-      instructions = ‘add coffee’ 
-    </ul>
-
-    <ul>
-      instructions = ‘add’ + sugar + “spoons of sugar’  
-    </ul>
-
-    <ul>
-      instructions = ‘add’ + milk + ‘% milk’ 
-    </ul>
-      
-    <ul>
-      return instructions     
-    </ul>
-
-    <ul>
-    }
-    </ul>
-
-
+  
+  <img src="images/functions_example.jpg" alt="image loading" style="width:100%; height:300%;  margin-right:5px;">
+  
 <h2>
     The DOM and DevTools
   </h2>
